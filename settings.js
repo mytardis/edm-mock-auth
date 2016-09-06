@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports.clients = require('./config/clients').clients;
-module.exports.certificates = require('./config/certificates').certificates;
+module.exports.clients = require('./config/clients');
+module.exports.certificates = require('./config/certificates');
 
 module.exports.config = {
     claims: {

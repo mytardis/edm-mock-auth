@@ -1,7 +1,7 @@
 'use strict';
 
 // Use git@github.com:mitreid-connect/json-web-key-generator.git
-module.exports.certificates = [
+module.exports = [
     {
         "p": "7gxS1Ra0mM_jMyWnQYmMLJR1gvMepQw0dG3KT_9I57noFLT1PeamxK1AaDVWHYqU6BSQFmH8ykTKb7UsrR0NxY9kvYiHGmnyi7qAv2TGr5plSmb9jT3SUzBwgfla1lkdYhbSfmqg33mvvzgp_do99vm2kOE6j2JoMeqk0AtuSB_ho_cz2bhL9p1OpJJ5chuHmGNEH3dIab5npoJ12joGlg0JbO6BaHbjf2PIw337P8nSXiOU6HCAWM9qYx9JJt_eaTpsbZGiykI-2azE-SBtOOjNJ0YKEu4bseXM0hUSbGJtpBVpHGli9ViDf_zgG3oGdLZ0qCkReTSQ9F_0UbyRyw",
         "kty": "RSA",
