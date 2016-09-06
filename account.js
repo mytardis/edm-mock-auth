@@ -6,13 +6,11 @@ const uuid = require('uuid');
 
 class Account {
     constructor(id) {
-        console.log("I'm a new account");
         this.accountId = id || uuid.v4();
         store.set(this.accountId, this);
     }
 
     claims() {
-        console.log("I'm returning the claims now...");
         return {
             address: {
                 country: '000',
