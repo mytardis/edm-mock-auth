@@ -86,6 +86,7 @@ router.get('/interaction/:grant', function * renderInteraction(next) {
 
 // This is the route that handles login form submission and authorisation
 router.post('/login', body(), function * submitLoginForm() {
+    console.log(this.request.body);
     const account = yield Account.findByLogin(this.request.body.login);
 
     const result = {

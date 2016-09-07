@@ -21,7 +21,7 @@ class Account {
                 street_address: '000',
             },
             birthdate: '1987-10-16',
-            email: 'johndoe@example.com',
+            email: this.accountId + '@example.com',
             email_verified: false,
             family_name: 'Doe',
             gender: 'male',
@@ -44,7 +44,7 @@ class Account {
 
     static findByLogin(login) {
         if (!logins.get(login)) {
-            logins.set(login, new Account());
+            logins.set(login, new Account(login));
         }
 
         return Promise.resolve(logins.get(login));
