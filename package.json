@@ -18,7 +18,7 @@
     "node": "6.3.1"
   },
   "dependencies": {
-    "foreman": "2.0.0",
+    "foreman": "3.0.1",
     "koa": "1.2.2",
     "koa-body": "1.5.0",
     "koa-ejs": "3.0.0",
